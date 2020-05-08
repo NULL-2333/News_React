@@ -1,0 +1,90 @@
+.News_Card_Content{
+    padding: 2%;
+    width: 300px;
+}
+
+.News_Card_Img{
+    padding: 2%;
+    width: 300px;
+}
+
+.News_Card_Img_Box{
+    border: 1px solid #ebebeb;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.News_Card_Img img{
+    width: 100%;
+    height: 100%;
+}
+
+.News_Card_Title{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.News_Card_News{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+.News_Card_Time{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.News_Card_Tag{
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
+    float: right;
+    background-color: green;
+    padding: 2px 5px;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+
+.Share{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    display: contents;
+    color: black;
+    text-decoration: none;
+}
+
+
+.Share_Msg {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.Share_Toast_Buttons{
+    text-align: center;
+}
+
+.Share_Modal_Close{
+    color: gray;
+    border: 0 !important;
+    float: right;
+    display: flex;
+    background-color: transparent !important;
+}
+
+.modal-header::before, .modal-header::after, .modal-footer::before{
+    content: unset !important;
+}
