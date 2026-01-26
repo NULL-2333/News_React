@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "ipapi.co": "^0.3.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-icons": "^3.9.0",
